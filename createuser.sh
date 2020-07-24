@@ -1,1 +1,1 @@
-mongo < user.js
+mongo < createuser.js
