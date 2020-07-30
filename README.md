@@ -20,7 +20,7 @@ Refer to [mongo shell](https://docs.mongodb.com/manual/mongo/)
 
 ### Reconfig mongo server
 
-Since we create a owner, we would like to access to db through auth, we have to reconfig mongo db server.
+Since we create an owner of db `es2cn`, we would like to access to db through auth, we have to reconfig mongo db server.
 
 * Edit `/etc/mongodb.conf`, enable auth
 * Restart mongodb by `systemctl restart mongodb`
