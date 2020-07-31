@@ -4,6 +4,6 @@ db.createUser(
   {
     user: "phoenix",
     pwd: "turingmachine", // or cleartext password
-    roles: [ { role: "dbOwner", db: "es2cn" } ]
+    roles: [ { role: "dbOwner", db: "es2cn" }, { role: "dbOwner", db: "dict_user"} ]
   }
 )
