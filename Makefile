@@ -15,5 +15,5 @@ stop:
 	docker-compose down
 
 clean:
-	rm -r mongo-data
+	sudo rm -r mongo-data
 
