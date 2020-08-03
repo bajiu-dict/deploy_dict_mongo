@@ -1,3 +1,3 @@
 // comment auth in /etc/mongodb.conf
 use admin;
-db.dropUser("me", {w: "majority", wtimeout: 4000})
+db.dropUser("phoenix", {w: "majority", wtimeout: 4000})

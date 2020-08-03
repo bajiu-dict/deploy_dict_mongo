@@ -8,5 +8,6 @@ db.createUser(
         role: "dbOwner", 
         db: "es2cn" } 
     ]
+
   }
 )
