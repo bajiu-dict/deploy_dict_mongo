@@ -26,21 +26,36 @@ Since we create an owner of db `es2cn`, we would like to access to db through au
 * Restart mongodb by `systemctl restart mongodb`
 
 
-### Init db
+### Init dictionary db
 ```
-./restore.sh
+./restore_dictionary.sh
+```
+
+### Init client db
+```
+./restore_client.sh
 ```
 
 # Maintenance
 
-### Backup db
+### Backup dictionary db
 ```
-./backup.sh
+./backup_dictionary.sh
 ```
 
-### Drop db
+### Backup client db
 ```
-./dropdb.sh
+./backup_client.sh
+```
+
+### Drop dictionary db
+```
+./drop_dictionary_db.sh
+```
+
+### Drop client db
+```
+./drop_client_db.sh
 ```
 
 ### Delete user
