@@ -65,3 +65,35 @@ This repo is a quickstart project for mongodb deployment.
     ```bash
     make stop
     ```
+
+## Maintenance
+
+- Backup dictionary db
+
+```bash
+./backup_dictionary.sh
+```
+
+- Backup client db
+
+```bash
+./backup_client.sh
+```
+
+- Drop dictionary db
+
+```bash
+./drop_dictionary_db.sh
+```
+
+- Drop client db
+
+```bash
+./drop_client_db.sh
+```
+
+- Delete user
+
+```bash
+,/deleteuser.sh
+```
