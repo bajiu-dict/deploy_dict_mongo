@@ -42,6 +42,8 @@ This repo is a quickstart project for mongodb deployment.
 
 ## Quick Start
 
+This project will use localhost port 27017 and 8081, make sure those ports are not in use before start.
+
 1. Start mongodb
 
     ```bash
