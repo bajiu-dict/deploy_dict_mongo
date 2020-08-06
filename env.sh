@@ -1,9 +1,11 @@
+#!/bin/bash
+
 USERNAME=phoenix
 PASSWORD=turingmachine
 DICT_DB=es2cn
 USER_DB=dict_user
 AUTHDB=admin
-BACKUPDIR=backup
+BACKUPDIR=${PWD}/backup
 
 # environment variables for mongodb docker
 MONGO_INITDB_DATABASE=admin
