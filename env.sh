@@ -1,6 +1,7 @@
 USERNAME=phoenix
 PASSWORD=turingmachine
-DICT_DB=es2cn
+ES_DICT_DB=es2cn
+EN_DICT_DB=en2cn
 USER_DB=dict_user
 AUTHDB=admin
 BACKUPDIR=backup
