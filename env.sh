@@ -1,4 +1,4 @@
-USERNAME=phoenix
+USERNAME=dict
 PASSWORD=turingmachine
 ES_DICT_DB=es2cn
 EN_DICT_DB=en2cn
