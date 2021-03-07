@@ -60,5 +60,5 @@ Since we create an owner of db `es2cn`, we would like to access to db through au
 
 ### Delete user
 ```
-,/deleteuser.sh
+./deleteuser.sh
 ```
