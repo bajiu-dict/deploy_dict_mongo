@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"es2cn.vocabs"},{"v":{"$numberInt":"2"},"key":{"word":{"$numberDouble":"1.0"}},"name":"word_1","ns":"es2cn.vocabs"}],"uuid":"688c530498b546249f5d0cdbdb7c67bb"}
