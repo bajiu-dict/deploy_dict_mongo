@@ -1,9 +1,9 @@
 # Init Mongo
 
 ### Install mongo
-```
-./install_mongo.sh
-```
+
+* If your user is `root`, execute `./install_mongo.sh`
+* If your user is `non-root`, you need `sudo` right to install `mongo`, by `sudo ./install_mongo.sh`
 
 ### Connect with mongo
 ```
