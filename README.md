@@ -10,7 +10,7 @@
 mongo
 ```
 
-### Play with mongo
+### Play with mongo (Optional)
 Refer to [mongo shell](https://docs.mongodb.com/manual/mongo/)
 
 ### Create db owner 
