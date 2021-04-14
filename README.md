@@ -35,7 +35,7 @@ which deploys `en2cn`, `es2cn` with collections related with application usage r
 
 # Other scenarios
 
-### Scenario 1: Restore pre production db for application and reviewing 
+### Scenario 1: Dump pre production db for application and reviewing 
 ```
 make prep_preprod
 ```
