@@ -50,6 +50,8 @@ drop_es_preprod:
 drop_en_preprod:
 	mongo ${EN_DICT_DB} ${PERMIT} --eval="db.dropDatabase()"
 
+deploy_sentences:
+	mongorestore ${PERMIT} --drop  backup_sen
 
 # Scenario 0: Init preprod db
 init: init_preprod hash_preprod
@@ -59,3 +61,4 @@ deploy_for_app: deploy_es_preprod_for_app deploy_en_preprod_for_app
 
 # Scenario 2: Deploy pre production db for reviewing 
 deploy_for_tbr: deploy_es_preprod_for_tbr deploy_en_preprod_for_tbr
+

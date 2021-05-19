@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"en2cn.sentences"},{"v":2,"key":{"_fts":"text","_ftsx":1},"name":"original_text","ns":"en2cn.sentences","default_language":"english","weights":{"original":1},"language_override":"language","textIndexVersion":3}],"uuid":"ed17124194a94323b19158890416c0f6"}
